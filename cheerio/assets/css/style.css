@@ -1,0 +1,135 @@
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.logo{
+	//border:5px solid green; 
+	height:80px; 
+	
+}
+.hd{
+	text-shadow: 3px 2px red;
+}
+.headname{ 
+	padding:10px; 
+	align:center;
+}
+.headn{ 
+	color:#FFFFFF;
+	font-size:50px;
+ }
+.headtop{
+	height:200px; 
+	/*background:url("banner1.jpg"); 
+	//background-repeat:repeat-x; 
+	//background-repeat:repeat-y; 
+	weidth:900px;
+	background-size: cover;*/
+}
+.mainsection{
+	border:5px solid #FFFF00;
+	height:433px; 
+	width:1085px;
+}
+.headbottum{
+	border:solid 1px;height:200px;right:0;left:0;display:inline;folat:left;
+}
+.menu1{
+	border:5px solid green;
+	height:50px;
+	position:relative;
+	right:30px;
+}
+.subimg{
+	border:solid 1px;
+	width:200px;
+	float:left;
+	padding:40px;
+	margin-left:20px;
+}
+.subimg1{
+border:solid 1px;
+width:200px;
+float:left;
+padding:40px;
+margin-left:20px;
+}
+
+}
+.manu1{
+	position: absolute;
+	top: 45px;
+	right: 1100px;
+	width: 200px;
+	height: 100px;
+}
+.logoimg{ 
+	display:inline-block; 
+	position: absolute;
+	top: 45px;
+	right: 1100px;
+	width: 200px;
+	height: 100px;
+}
+.menu{ 
+	//border:solid; 
+	display:inline-block;
+	position: relative; 
+	right: 30px; 
+	padding:20px 30px; 
+	background:green; 
+	cursor:pointer;
+	background-size: cover;
+	border-radius:15px;
+	
+}
+
+	
+.menu:hover{ 
+	background:#F7DC6F;
+	border:solid 1px #873600;
+	text-color:black;
+}
+.menua{
+	font-size:18px;
+	text-decoration: none;
+	color:white;
+}
+
+
+
+
+
